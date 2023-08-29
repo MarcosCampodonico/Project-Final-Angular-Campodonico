@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "name": "marcos",
+      "surname": "campodonico",
+      "email": "mc@mail.com",
+      "password": "123456",
+      "token": "bG1Ptx4ZztwJwAoyjxQy",
+      "role": "ADMINISTRADOR",
+      "id": 1
+    },
+    {
+      "name": "johanna",
+      "surname": "campodonico",
+      "email": "jc@mail.com",
+      "password": "jc2003",
+      "role": "USUARIO",
+      "token": "bG1Ptx4ZztwJwAoyjxQH",
+      "id": 2
+    },
+    {
+      "name": "luis",
+      "surname": "campodonico",
+      "email": "lc@mail.com",
+      "password": "lc1988",
+      "role": "ADMINISTRADOR",
+      "token": "bG1Ptx4ZztwJwAoyjxQH",
+      "id": 3
+    }
+    
+  ],
+  "cursos": [
+    {
+      "id": 1,
+      "name": "Desarrollo Front-End",
+      "description": "lorem ipsum",
+      "price": 100000,
+      "lugares": 80
+      
+    },
+    {
+      "id": 2,
+      "name": "Programacion Backend",
+      "description": "lorem ipsum",
+      "price": 120000,
+      "lugares": 80
+      
+    },
+    {
+      "id": 3,
+      "name": "Data Scientist",
+      "description": "lorem ipsum",
+      "price": 180000,
+      "lugares": 90
+      
+    }
+  ],
+  "docentes": [
+    {
+      "name": "Matias",
+      "surname": "Suarez",
+      "email": "ms@mail.com",
+      "id": 1
+    },
+    {
+      "name": "Franco",
+      "surname": "Armani",
+      "email": "fa@mail.com",
+      "id": 2
+    },
+    {
+      "name": "Lucas",
+      "surname": "Beltran",
+      "email": "lb@mail.com",
+      "id": 3
+    },
+    {
+      "name": "Exequiel",
+      "surname": "Palacios",
+      "email": "ep@mail.com",
+      "id": 4
+    }
+  ],
+  "alumnos": [
+    {
+      "id": 1,
+      "cursoId": 2,
+      "docenteId": 1
+    },
+    {
+      "id": 2,
+      "cursoId": 2,
+      "docenteId": 2
+    },
+    {
+      "id": 3,
+      "cursoId": 1,
+      "docenteId": 3
+    },
+    {
+      "id": 4,
+      "cursoId": 2,
+      "docenteId": 2
+    },
+    
+    {
+      "id": 5,
+      "cursoId": 1,
+      "docenteId": 4
+    }
+    
+    
+  ]
+}
